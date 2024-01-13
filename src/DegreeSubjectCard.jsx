@@ -234,8 +234,16 @@ const DegreeSubjectCard = ({ subject, index, updateTotalAverage }) => {
                     allowNegative={false}
                     allowLeadingZeros={false}
                     isAllowed={(values) => {
-                      const { floatValue } = values;
-                      return floatValue <= 20;
+                      const { formattedValue, value, floatValue } = values;
+                      if (value.charAt(0) === "0") {
+                        if (value.charAt(1) && value.charAt(1) != ".") {
+                          return false;
+                        }
+                      }
+                      return (
+                        formattedValue === "" ||
+                        (floatValue <= 20 && floatValue >= 0)
+                      );
                     }}
                     onValueChange={(value) => {
                       onInputChange(i.name, value.floatValue);
@@ -262,7 +270,7 @@ const DegreeSubjectCard = ({ subject, index, updateTotalAverage }) => {
           {average > 0 && <MetaDataPreview title="Moyenne:" value={average} />}
           {average > 0 && (
             <MetaDataPreview
-              title="Moyenne:"
+              title="Score:"
               value={ProcessDigits(
                 average * parseFloat(subject.subject_coefficient)
               )}
