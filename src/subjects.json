@@ -1,0 +1,148 @@
+{
+    "subjects": [
+        {
+            "subject_code": "573014521",
+            "subject_name": "Introduction au Big data et Cloud",
+            "subject_coefficient": "1.5",
+            "subject_credits": "3",
+            "subject_regime": "MX",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "21",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "42"
+        },
+        {
+            "subject_code": "573014522",
+            "subject_name": "Développement Mobile",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "CC",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "0",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "21"
+        },
+        {
+            "subject_code": "573014532",
+            "subject_name": "Les fondamentaux de la sécurité IT",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "CC",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "0",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "21"
+        },
+        {
+            "subject_code": "573014531",
+            "subject_name": "Gestion de la technologie de l'information (ERP,SCM..)",
+            "subject_coefficient": "1.5",
+            "subject_credits": "3",
+            "subject_regime": "CC",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "21",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "42"
+        },
+        {
+            "subject_code": "573014541",
+            "subject_name": "Langages de programmation évolués -BI",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "MX",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "21",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "42"
+        },
+        {
+            "subject_code": "573014542",
+            "subject_name": "Conception TB et scoring",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "CC",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "0",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "21"
+        },
+        {
+            "subject_code": "573014511",
+            "subject_name": "Techniques de prévision",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "MX",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "21",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "42"
+        },
+        {
+            "subject_code": "573014512",
+            "subject_name": "Fondements de la théorie de décision",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "MX",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "0",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "21"
+        },
+        {
+            "subject_code": "573014551",
+            "subject_name": "Gestion de projet",
+            "subject_coefficient": "2",
+            "subject_credits": "4",
+            "subject_regime": "CC",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "0",
+            "subject_theoretical_practice_hours": "21",
+            "c_int": "",
+            "total": "42"
+        },
+        {
+            "subject_code": "573014552",
+            "subject_name": "Psychology and sociology for online media applications",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "CC",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "0",
+            "subject_theoretical_practice_hours": "0",
+            "c_int": "",
+            "total": "21"
+        },
+        {
+            "subject_code": "169921306",
+            "subject_name": "Architecture orientée services",
+            "subject_coefficient": "2",
+            "subject_credits": "4",
+            "subject_regime": "",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "21",
+            "subject_theoretical_practice_hours": "",
+            "c_int": "",
+            "total": ""
+        },
+        {
+            "subject_code": "169921307",
+            "subject_name": "E-commerce",
+            "subject_coefficient": "1",
+            "subject_credits": "2",
+            "subject_regime": "",
+            "subject_course_hours": "21",
+            "subject_practical_hours": "",
+            "subject_theoretical_practice_hours": "",
+            "c_int": "",
+            "total": ""
+        }
+    ]
+}
