@@ -55,10 +55,10 @@ function App() {
             <span className="text-xl text-muted-foreground ">Semestre: 5</span>
           </div>
           <div className="flex flex-col justify-center">
-            <span className="font-bold text-lg">Moyenne:{average}</span>
+            <span className="font-bold text-lg">Moyenne: {average}</span>
           </div>
         </div>
-        <div className="grid md:grid-cols-2 gap-4 mt-[60%] md:mt-[13%] md:mb-0 mb-[20%] overflow-x-hidden">
+        <div className="grid md:grid-cols-2 gap-4 mt-[60%] md:mt-[13%] mb-[5%]">
           {curriculum.length > 0 &&
             curriculum?.map((i, index) => (
               <DegreeSubjectCard
