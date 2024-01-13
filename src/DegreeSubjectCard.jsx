@@ -216,7 +216,7 @@ const DegreeSubjectCard = ({ subject, index, updateTotalAverage }) => {
           <SelectTrigger className="ml-4 w-[280px] md:w-[90%] bg-primary-foreground">
             <SelectValue placeholder="Liste des formules" />
           </SelectTrigger>
-          <SelectContent>
+          <SelectContent className="w-[280px] md:w-auto">
             {formulas_list.map((formulaItem) => (
               <SelectItem value={formulaItem.value}>
                 {formulaItem.label}
@@ -228,12 +228,6 @@ const DegreeSubjectCard = ({ subject, index, updateTotalAverage }) => {
           {inputs.map(
             (i) =>
               i.disabled === false && (
-                // <DegreeInput
-                //   title={i.name}
-                //   name={i.name}
-                //   inputValue={i.value}
-                //   updateValue={onInputChange}
-                // />
                 <div className="flex flex-col  md:w-full">
                   <Label>{i.name}</Label>
                   <NumericFormat
@@ -281,107 +275,3 @@ const DegreeSubjectCard = ({ subject, index, updateTotalAverage }) => {
 };
 
 export default DegreeSubjectCard;
-
-/**
- *     <View
-      style={{
-
-        backgroundColor: bg_colors[index % 4],
-      }}>
-      <Text
-        style={{
-          fontFamily: 'Quicksand-SemiBold',
-          color: 'black',
-          fontSize: 20,
-        }}>
-        {subject.subject_name[0].toUpperCase() + subject.subject_name.slice(1)}
-      </Text>
-      <View
-        style={{
-          marginTop: 15,
-        }}>
-        <Text
-          style={{
-            fontFamily: 'Quicksand-Regular',
-            color: 'black',
-            fontSize: 17,
-            marginBottom: 3,
-            marginLeft: 3,
-          }}>
-          Choisir la formule de calcul
-        </Text>
-        <SelectList
-          search={false}
-          setSelected={val => setFormula(val)}
-          data={formulas_list}
-          placeholder="Formule de calcul"
-          boxStyles={{
-            borderColor: 'black',
-          }}
-          dropdownTextStyles={{
-            color: 'black',
-          }}
-          inputStyles={{
-            color: 'black',
-          }}
-          save="key"
-        />
-      </View>
-
-      <View
-        style={{
-          marginTop: 10,
-          marginBottom: 10,
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          alignContent: 'center',
-          justifyContent: 'center',
-        }}>
-        {inputs.map(
-          i =>
-            i.disabled === false && (
-              <DegreeInput
-                title={i.name}
-                name={i.name}
-                inputValue={i.value}
-                updateValue={onInputChange}
-              />
-            ),
-        )}
-      </View>
-    
-      <View>
-        <View
-          style={{
-            flexDirection: 'row',
-            alignContent: 'space-between',
-            padding: 10,
-          }}>
-      
-          <Text
-            style={{
-              fontFamily: 'Quicksand-Regular',
-              color: 'black',
-              fontSize: 16,
-              flex: 1,
-            }}>
-            Crédits:{' '}
-            <Text style={{fontFamily: 'Quicksand-Bold'}}>
-              {subject.subject_credits}
-            </Text>
-          </Text>
-          <Text
-            style={{
-              fontFamily: 'Quicksand-Regular',
-              color: 'black',
-              fontSize: 16,
-            }}>
-            Régime:{' '}
-            <Text style={{fontFamily: 'Quicksand-Bold'}}>
-              {subject.subject_regime}
-            </Text>
-          </Text>
-        </View>
-      </View>
-    </View>
- */

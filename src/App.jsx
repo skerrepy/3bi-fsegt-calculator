@@ -75,9 +75,3 @@ function App() {
 }
 
 export default App;
-
-/**
-
-                    <span>Votre moyenne:{average}</span>
-
- */
